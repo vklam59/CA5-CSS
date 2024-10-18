@@ -27,14 +27,13 @@
     <!--ROW 2-->
     <div class="row">
         <div class="col" style="width:15%">
-            <div class="col">
-                <ul>
-                    <li><a href="#ingred" class="col">Ingredients</a></li> 
-                    <li><a href="#equip" class="col">Equipments</a></li>
-                    <li><a href="#direct" class="col">Directions</a></li>
-                </ul>
-            </div>
+            <nav class="w3-sidebar w3-bar-block">
+                <button class="w3-bar-item w3-button tablink" onclick="openCity('ingred')">Ingredients</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openCity('equip')">Equipments</button>
+                <button class="w3-bar-item w3-button tablink" onclick="openCity('direct')">Directions</button>
+            </nav>
         </div>
+    </div>
         <div class="col" style="width:35%;height:auto">
             <figure>  
                 <img src="images/lasagna.jpg" style="color: #d63606; font-size: 16px; height:250px;" alt="Picture of a scrumptious dish of lasagna">  
