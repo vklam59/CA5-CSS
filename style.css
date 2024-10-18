@@ -1,0 +1,58 @@
+*{
+    box-sizing:border-box;
+}
+
+[class*= "col"] {
+    float: left;
+    /*padding: 15px; */
+}
+
+.row::after {
+    content:"";
+    clear:both;
+    display:block;
+}
+
+
+body {
+    background-color: #f8f4bb;
+    font-family: "Josefin Sans", sans-serif;
+    }
+    
+    h1, h2, h3 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #d63606;
+    font-style:oblique;
+    /*font-size:30px; */
+    }
+    
+    
+    li {
+    color: #f8430c;
+    }
+    
+    
+    legend {
+    color:#d63606;
+    font-family:"Josefin Sans",san-serif;
+    font-weight: bold;
+    }
+    
+    label{
+    color:#d63606;
+    font-family:"Josefin Sans",san-serif;
+    ;
+    }
+
+img{
+        width:100%;
+        height:auto;
+}
+
+
+<table style="border: none; border-collapse: collapse;"> 
+<tr> 
+    <td style="border: none;">Cell 1</td> 
+    <td style="border: none;">Cell 2</td> 
+</tr> 
+</table> 
